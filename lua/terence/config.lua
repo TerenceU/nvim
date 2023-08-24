@@ -25,4 +25,4 @@ command("syntax on")
 command("set scrolloff=25")
 
 -- Set colorscheme
-command("colorscheme desert")
+command("colorscheme default")
