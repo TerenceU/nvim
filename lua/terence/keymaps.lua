@@ -6,9 +6,9 @@ local g = vim.g
 -- Map leader to space
 g.mapleader = ' ';
 
--- Map better tabulation
-map('n', '<Tab>', ':bnext<CR>', opts)
-map('n', '<S-Tab>', ':bprevious<CR>', opts)
+-- Map better tabulation for indenting
+map('v', '<Tab>', '<gv', opts)
+map('v', '<Tab>', '>gv', opts)
 
 -- Map leader + w to save and return to tree explorer
 map('n', '<leader>w', ':w<CR>:Ex<CR>', opts)

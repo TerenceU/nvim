@@ -26,3 +26,6 @@ command("set scrolloff=25")
 
 -- Set colorscheme
 command("colorscheme default")
+
+-- Set clipboard to system clipboard
+command("set clipboard=unnamedplus")
